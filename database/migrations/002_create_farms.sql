@@ -1,0 +1,23 @@
+CREATE TABLE farms (
+    id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+
+    user_id BIGINT UNSIGNED NOT NULL,
+
+    farm_name VARCHAR(150) NOT NULL,
+    location VARCHAR(255) NULL,
+
+    area DECIMAL(10,2) NULL,
+    area_unit VARCHAR(30) DEFAULT 'hectare',
+
+    description TEXT NULL,
+
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        ON UPDATE CURRENT_TIMESTAMP,
+
+    CONSTRAINT fk_farms_user
+        FOREIGN KEY (user_id)
+        REFERENCES users(id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
+);

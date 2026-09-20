@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss -i ./assets/css/input.css -o ./assets/css/app.css --watch",
-    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/app.css --minify"
+    "build:css": "tailwindcss -i ./assets/css/input.css -o ./public/output.css"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/mdlladones2003/citech_agrischedule#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",
+    "daisyui": "^5.7.42",
     "tailwindcss": "^4.3.3"
   }
 }
