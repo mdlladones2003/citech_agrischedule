@@ -442,9 +442,45 @@
     }
   }
   @layer daisyui.l1.l2 {
+    .btn-neutral {
+      --btn-color: var(--color-neutral);
+      --btn-fg: var(--color-neutral-content);
+      --btn-soft-bg: var(--color-neutral-content) 80%;
+      --btn-rest-fg: initial;
+    }
+    .btn-accent {
+      --btn-color: var(--color-accent);
+      --btn-fg: var(--color-accent-content);
+      --btn-soft-bg: initial;
+    }
+    .btn-error {
+      --btn-color: var(--color-error);
+      --btn-fg: var(--color-error-content);
+      --btn-soft-bg: initial;
+    }
+    .btn-info {
+      --btn-color: var(--color-info);
+      --btn-fg: var(--color-info-content);
+      --btn-soft-bg: initial;
+    }
     .btn-primary {
       --btn-color: var(--color-primary);
       --btn-fg: var(--color-primary-content);
+      --btn-soft-bg: initial;
+    }
+    .btn-secondary {
+      --btn-color: var(--color-secondary);
+      --btn-fg: var(--color-secondary-content);
+      --btn-soft-bg: initial;
+    }
+    .btn-success {
+      --btn-color: var(--color-success);
+      --btn-fg: var(--color-success-content);
+      --btn-soft-bg: initial;
+    }
+    .btn-warning {
+      --btn-color: var(--color-warning);
+      --btn-fg: var(--color-warning-content);
       --btn-soft-bg: initial;
     }
   }
@@ -643,12 +679,12 @@
     --color-base-200: #ecfdf5;
     --color-base-300: #d1fae5;
     --color-base-content: #111827;
-    --color-primary: #10b981;
+    --color-primary: #059669;
     --color-primary-content: #ffffff;
-    --color-secondary: #34d399;
+    --color-secondary: #10b981;
     --color-secondary-content: #ffffff;
-    --color-accent: #6ee7b7;
-    --color-accent-content: #052e2b;
+    --color-accent: #34d399;
+    --color-accent-content: #ffffff;
     --color-neutral: #1f2937;
     --color-neutral-content: #ffffff;
     --color-info: #0ea5e9;

@@ -64,14 +64,14 @@
     name: "emerald";
     default: true;
 
-    --color-primary: #10b981;
+    --color-primary: #059669;
     --color-primary-content: #ffffff;
 
-    --color-secondary: #34d399;
+    --color-secondary: #10b981;
     --color-secondary-content: #ffffff;
 
-    --color-accent: #6ee7b7;
-    --color-accent-content: #052e2b;
+    --color-accent: #34d399;
+    --color-accent-content: #ffffff;
 
     --color-neutral: #1f2937;
     --color-neutral-content: #ffffff;
