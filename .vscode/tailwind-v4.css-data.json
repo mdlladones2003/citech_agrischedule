@@ -1,0 +1,13 @@
+{
+  "version": 1.1,
+  "atDirectives": [
+    { "name": "@import", "description": "CSS import" },
+    { "name": "@plugin", "description": "Tailwind plugin directive" },
+    { "name": "@theme", "description": "Tailwind theme directive" },
+    { "name": "@layer", "description": "Tailwind layer directive" },
+    { "name": "@utility", "description": "Tailwind utility directive" },
+    { "name": "@variant", "description": "Tailwind variant directive" },
+    { "name": "@source", "description": "Tailwind source directive" },
+    { "name": "@container", "description": "Tailwind container directive" }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "css.validate": true,
+  "css.customData": [
+    "./.vscode/tailwind-v4.css-data.json"
+  ]
+}
